@@ -1,0 +1,6 @@
+{
+  "name": "BabySync",
+  "description": "ローカルファーストで片手でも素早く記録できる育児記録アプリ（Loro CRDT + IndexedDB）",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
