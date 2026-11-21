@@ -497,7 +497,7 @@ export default function App() {
       <header className="sticky top-0 z-30 h-14 bg-white/90 backdrop-blur-md border-b border-slate-200/80">
         <div className="max-w-6xl mx-auto h-full px-4 sm:px-6 flex items-center justify-between gap-4">
           <a
-            href="/"
+            href={import.meta.env.BASE_URL}
             onClick={(e) => {
               e.preventDefault();
               setSelectedDateKey(getDateKey(Date.now()));
